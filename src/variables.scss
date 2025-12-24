@@ -1,14 +1,29 @@
 // Font Imports
-@import url(https://db.onlinewebfonts.com/c/003d7a319c34541beb85322e96801b07?family=Shackleton+Test+Condensed);
-@import url(https://db.onlinewebfonts.com/c/22f04edf2c2e9ca17625d9e7ccdf70e2?family=Source+Serif+4);
+@font-face {
+  font-family: 'Shackleton Test';
+  src: url('../fonts/shackleton/ShackletonTest-Regular-BF65c2f01d0f921.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif 4';
+    src: url('../src/fonts/Source_Serif_4/static/SourceSerif4/SourceSerif4-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+// @import url(https://db.onlinewebfonts.com/c/22f04edf2c2e9ca17625d9e7ccdf70e2?family=Source+Serif+4);
 
 // Font Family Variables
-$main-font: "Shackleton Test Condensed", sans-serif;
+$main-font: 'Shackleton Test', sans-serif;
 $secondary-font: 'Source Serif 4', serif;
 
 // Project Color Variables
 
-$accent-color: #c41520;
+$accent-color: #C41721;
 $white-color: #ffffff;
 $black-color: #000000;
 $gray-color: #C5C5C5;

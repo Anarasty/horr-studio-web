@@ -1,0 +1,76 @@
+@use "../../variables.scss" as *;
+
+.studio_page_section {
+    width: 100%;
+    background-color: rgb(112, 112, 112);
+    background-image: url("../../images/IP38-EggHunt-scaled\ 1.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $main-font;
+    color: $white-color;
+}
+
+.strokeBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    // height: 40%;
+}
+
+.studio_page_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    h1 {
+        font-size: 3.75rem;
+        text-transform: uppercase;
+    }
+}
+
+.studio_page_section_player_container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.player_btn {
+  display: inline-flex;
+}
+
+.player_btn_inner {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.player_btn_inner img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.player_icon {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-55%, -55%);
+  color: $white-color;
+  font-size: 13px;
+  line-height: 1;
+  pointer-events: none;
+}
+
